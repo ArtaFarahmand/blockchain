@@ -19,6 +19,8 @@ h1.styling {
   padding: 25px;
 }
 
+h5{font-family: 'Playfair Display', serif;}
+
 p{
   font-family: 'Roboto', serif;
   font-size: 12px;
@@ -26,8 +28,21 @@ p{
   color: #3D3D3D;
 }
 
+footer{
+  margin-top: 25px;
+  border-top: 1px;
+  border-top-style: solid;
+  border-top-width: thin;
+  border-top-color: grey;
+  padding: 15px;
+}
+
 .container{
-  margin-top: 0;
+  top: 0;
+}
+
+.navbar-text{
+  text-align: center;
 }
 
 .navbar-custom{
