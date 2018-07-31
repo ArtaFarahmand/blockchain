@@ -1,0 +1,76 @@
+/* Google font import */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900|Roboto');
+
+/* General styling elements*/
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+h1.styling {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 40px;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: grey;
+  padding: 25px;
+}
+
+p{
+  font-family: 'Roboto', serif;
+  font-size: 12px;
+  padding-top: 10px;
+  color: #3D3D3D;
+}
+
+.container{
+  margin-top: 0;
+}
+
+.navbar-custom{
+   background-color: white;
+   color: #3D3D3D;
+}
+
+.btn-link{
+  font-family: 'Playfair Display', serif;
+  color: black;
+}
+
+.btn{
+  color: black;
+}
+
+.card-body{
+  font-family: 'Roboto', serif;
+  font-size: 12px;
+  padding: 10px;
+  color: #3D3D3D;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+/* No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .container{
+    width: 100%;
+  }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .container{
+    width: 100%;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .container{
+    width: 100%;
+  }
+ }
